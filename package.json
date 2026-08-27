@@ -1,0 +1,26 @@
+{
+  "name": "directus-preset-publisher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "directus:bootstrap": "directus bootstrap",
+    "directus:start": "directus start",
+    "seed": "node scripts/seed.mjs",
+    "export": "node scripts/export.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@directus/sdk": "25.0.1",
+    "directus": "12.3.1",
+    "sqlite3": "6.0.1"
+  },
+  "overrides": {
+    "axios": "1.18.0",
+    "js-yaml": "4.3.1",
+    "tar": "7.5.22"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

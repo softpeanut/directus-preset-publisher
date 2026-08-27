@@ -1,0 +1,5 @@
+node_modules/
+.directus/
+.env
+dist/
+npm-debug.log*
