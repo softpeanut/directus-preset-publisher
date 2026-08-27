@@ -6,8 +6,8 @@
   "scripts": {
     "directus:bootstrap": "directus bootstrap",
     "directus:start": "directus start",
-    "seed": "node scripts/seed.mjs",
-    "export": "node scripts/export.mjs",
+    "seed": "node --env-file=.env scripts/seed.mjs",
+    "export": "node --env-file=.env scripts/export.mjs",
     "test": "node --test"
   },
   "dependencies": {
